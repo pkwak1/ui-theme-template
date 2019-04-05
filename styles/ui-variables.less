@@ -10,11 +10,24 @@
 // Try to edit some of the values below to see your theme change.
 // A good start is to change the color of the `@base-background-color` variable.
 
+@very-light-gray: #9b836a;
+@light-gray: #624e3b;
+@gray: #352b22;
+@dark-gray: #28211a;
+@very-dark-gray: #1f1913;
+
+@cyan: #446675;
+@blue: #40796b;
+@purple: #6a7c02;
+@green: #93a14a;
+@red: #a55027;
+@orange: #a56b32;
+@light-orange: #b5a163;
 
 // Text Colors
-@text-color:           hsl(0,0%,66%);
+@text-color:           hsl(0,0%,100%);
 @text-color-subtle:    hsl(0,0%,50%);
-@text-color-highlight: hsl(0,0%,94%);
+@text-color-highlight: hsl(0,0%,50%);
 @text-color-selected:  hsl(0,0%,100%);
 
 @text-color-info:    hsl(219,  79%, 66%);
@@ -33,7 +46,8 @@
 @app-background-color:       darken(@base-background-color, 5%);
 
 // Base colors
-@base-background-color: hsl(222,6%,22%);
+// @base-background-color: hsl(222,6%,22%);
+@base-background-color: @cyan;
 @base-border-color:     darken(@base-background-color, 8%);
 
 // Component colors
