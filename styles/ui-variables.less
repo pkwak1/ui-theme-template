@@ -29,13 +29,13 @@
 @silver: #c0c0c0;
 
 // Text Colors
-@text-color:           hsl(0,0%,100%);
+@text-color:           @nd-green;
 @text-color-subtle:    hsl(0,0%,50%);
 @text-color-highlight: hsl(0,0%,50%);
-@text-color-selected:  hsl(0,0%,100%);
+@text-color-selected:  @nd-gold; //anything that's selected
 
 @text-color-info:    hsl(219,  79%, 66%);
-@text-color-success: hsl(140,  44%, 62%);
+@text-color-success: @nd-green;
 @text-color-warning: hsl( 36,  60%, 72%);
 @text-color-error:   hsl(  9, 100%, 64%);
 
@@ -52,7 +52,7 @@
 // Base colors
 // @base-background-color: hsl(222,6%,22%);
 @base-background-color: @nd-blue;
-@base-border-color:     darken(@base-background-color, 8%);
+@base-border-color:     darken(@silver, 8%);
 
 // Component colors
 @pane-item-background-color: @base-background-color;
